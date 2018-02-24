@@ -4,5 +4,5 @@ if [ "$1" = "debug" ];then
 elif [ "$1" = "version" ];then
     echo ${RELEASE_DESC}
 else
-    exec /usr/bin/rainbond-webcli $@
+    exec /run/rainbond-webcli $@
 fi
